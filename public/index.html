@@ -10,47 +10,39 @@
     </head>
     <body>
         <h1 class="center-align">Pokedex</h1>
-        <h5 class="center-align">"Los primeros 20"</h5>
         <section class="container">
             <ul id="lista_pokemones"></ul>
         </section>
         <!-- Modal -->
         <div id="modal" class="modal">
             <div class="modal-content container">
-              <h4 id="nombre_Pokemon" class="center-align">Pokemon #</h4>
+              <h4 id="nombre_Pokemon" class="center-align">Pokemon <p id="numero_Pokemon">__numero__</p></h4>
               <p>Habilidades</p>
               <div class="row">
-                  <span class="col s3">HP</span>
-                  <div class="progress col s9">
-                      <div class="determinate" style="width: 70%"></div>
-                  </div>
+                  <span class="col s3">Color</span>
+                  <div></div>
+                </div>
+             <div class="row">
+                  <span class="col s3">Shape</span>
+                  <div></div>
               </div>
               <div class="row">
-                  <span class="col s3">Ataque</span>
-                  <div class="progress col s9">
-                      <div class="determinate" style="width: 70%"></div>
-                  </div>
+                  <span class="col s3">Habitat</span>
+                  <div></div>
               </div>
+              
               <div class="row">
-                  <span class="col s3">Defensa</span>
-                  <div class="progress col s9">
-                      <div class="determinate progress-bar" style="width: 70%">70</div>
-                  </div>
+                  <span class="col s3">Seed</span>
+                  <div></div>
               </div>
-              <div class="row">
-                  <span class="col s3">Velocidad</span>
-                  <div class="progress col s9">
-                      <div class="determinate progress-bar" style="width: 70%">70</div>
-                  </div>
-              </div>
+              
             </div>
             <div class="modal-footer">
-              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
             </div>
         </div>
         
-        <!-- Modal Trigger -->
-        <a class="waves-effect waves-light btn" href="#modal">Modal</a>
+       
         
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>

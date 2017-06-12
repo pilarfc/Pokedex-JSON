@@ -35,3 +35,11 @@ div .progress {
     color: #fff;
     text-align: center;
 }
+
+#nombre_Pokemon {
+ display: inline; 
+}
+
+#numero_Pokemon {
+    display: inline;
+}
